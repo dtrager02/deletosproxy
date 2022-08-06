@@ -31,6 +31,15 @@ _REMOVE_HEADERS = (
     "x-vercel-id",
     "x-vercel-forwarded-for",
     "x-vercel-trace",
+    "Forwarded",
+    "X-Vercel-IP-City",
+    "X-Vercel-IP-Country",
+    "X-Vercel-IP-Country-Region",
+    "X-Vercel-IP-Latitude",
+    "X-Vercel-IP-Longitude",
+    "X-Vercel-IP-Timezone",
+    "X-Vercel-Proxy-Signature",
+    "X-Vercel-Proxy-Signature-Ts",
 )
 
 _SET_HEADERS = ("origin",)
